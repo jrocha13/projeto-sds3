@@ -1,5 +1,10 @@
 import Chart from 'react-apexcharts';
 
+type ChartData = {
+    labels: string[];
+    series: number[];
+}
+
 const DonutChart = () => {
 
     const mockData = {
